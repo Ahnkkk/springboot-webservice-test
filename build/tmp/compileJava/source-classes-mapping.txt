@@ -1,25 +1,51 @@
-com/ahn/book/springboot/domain/post/PostsRepository.java
- com.ahn.book.springboot.domain.post.PostsRepository
-com/ahn/book/springboot/web/HelloController.java
- com.ahn.book.springboot.web.HelloController
-com/ahn/book/springboot/web/dto/PostsUpdateRequestDto.java
- com.ahn.book.springboot.web.dto.PostsUpdateRequestDto
- com.ahn.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
+com/ahn/book/springboot/domain/post/user/User.java
+ com.ahn.book.springboot.domain.post.user.User
+ com.ahn.book.springboot.domain.post.user.User$UserBuilder
+com/ahn/book/springboot/domain/post/user/UserRepository.java
+ com.ahn.book.springboot.domain.post.user.UserRepository
+com/ahn/book/springboot/config/auth/LoginUserArgumentResolver.java
+ com.ahn.book.springboot.config.auth.LoginUserArgumentResolver
 com/ahn/book/springboot/web/dto/HelloResponseDto.java
  com.ahn.book.springboot.web.dto.HelloResponseDto
-com/ahn/book/springboot/domain/post/Posts.java
- com.ahn.book.springboot.domain.post.Posts
- com.ahn.book.springboot.domain.post.Posts$PostsBuilder
+com/ahn/book/springboot/web/HelloController.java
+ com.ahn.book.springboot.web.HelloController
+com/ahn/book/springboot/config/WebConfig.java
+ com.ahn.book.springboot.config.WebConfig
+com/ahn/book/springboot/config/auth/LoginUser.java
+ com.ahn.book.springboot.config.auth.LoginUser
 com/ahn/book/springboot/web/dto/PostsSaveRequestDto.java
  com.ahn.book.springboot.web.dto.PostsSaveRequestDto
  com.ahn.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/ahn/book/springboot/config/auth/dto/SessionUser.java
+ com.ahn.book.springboot.config.auth.dto.SessionUser
 com/ahn/book/springboot/Application.java
  com.ahn.book.springboot.Application
+com/ahn/book/springboot/domain/post/PostsRepository.java
+ com.ahn.book.springboot.domain.post.PostsRepository
 com/ahn/book/springboot/domain/post/BaseTimeEntity.java
  com.ahn.book.springboot.domain.post.BaseTimeEntity
 com/ahn/book/springboot/service/posts/PostsService.java
  com.ahn.book.springboot.service.posts.PostsService
+com/ahn/book/springboot/web/dto/PostsUpdateRequestDto.java
+ com.ahn.book.springboot.web.dto.PostsUpdateRequestDto
+ com.ahn.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
 com/ahn/book/springboot/web/dto/PostsResponseDto.java
  com.ahn.book.springboot.web.dto.PostsResponseDto
+com/ahn/book/springboot/config/auth/dto/OAuthAttributes.java
+ com.ahn.book.springboot.config.auth.dto.OAuthAttributes
+ com.ahn.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/ahn/book/springboot/domain/post/Posts.java
+ com.ahn.book.springboot.domain.post.Posts
+ com.ahn.book.springboot.domain.post.Posts$PostsBuilder
+com/ahn/book/springboot/web/dto/PostsListResponseDto.java
+ com.ahn.book.springboot.web.dto.PostsListResponseDto
+com/ahn/book/springboot/domain/post/user/Role.java
+ com.ahn.book.springboot.domain.post.user.Role
+com/ahn/book/springboot/web/IndexController.java
+ com.ahn.book.springboot.web.IndexController
+com/ahn/book/springboot/config/auth/SecurityConfig.java
+ com.ahn.book.springboot.config.auth.SecurityConfig
+com/ahn/book/springboot/config/auth/CustomOAuth2UserService.java
+ com.ahn.book.springboot.config.auth.CustomOAuth2UserService
 com/ahn/book/springboot/web/PostsApiController.java
  com.ahn.book.springboot.web.PostsApiController
